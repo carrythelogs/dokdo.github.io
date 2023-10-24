@@ -1,0 +1,937 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 589824,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 98306,
+      "max": [
+        0.4197719395160675,
+        0.4197719395160675,
+        0.4197719395160675
+      ],
+      "min": [
+        -0.4197719395160675,
+        -0.4197719395160675,
+        -0.4197719395160675
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 98306,
+      "normalized": true,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5121,
+      "count": 98306,
+      "normalized": true,
+      "type": "VEC4"
+    }
+  ],
+  "asset": {
+    "generator": "nomad 10",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2359296,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1179672,
+      "byteOffset": 2359296,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 786448,
+      "byteOffset": 3538968,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 393224,
+      "byteOffset": 4325416,
+      "byteStride": 4,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "eye_data.bin",
+      "byteLength": 4718640
+    }
+  ],
+  "extras": {
+    "nomad": {
+      "add_on_gizmo": false,
+      "add_select_gizmo": false,
+      "auto_save_project": false,
+      "auto_save_project_popup": true,
+      "auto_save_project_seconds": 300,
+      "backface_color": [
+        0.7799999713897705,
+        0.44999998807907104,
+        0.20999999344348907,
+        0.10000000149011612
+      ],
+      "backface_colored": true,
+      "backface_visible": true,
+      "background_blur": 0.4000000059604645,
+      "background_color": [
+        0.030079999938607216,
+        0.030050000175833702,
+        0.030009999871253967
+      ],
+      "background_exposure": 1,
+      "background_image_alpha": 1,
+      "background_image_display": false,
+      "background_image_name": "",
+      "background_image_overlay": 0,
+      "background_image_position": [
+        0,
+        0
+      ],
+      "background_image_rotation": 0,
+      "background_image_scale": 1,
+      "background_type": "color",
+      "bake_texture_color": true,
+      "bake_texture_emissive": true,
+      "bake_texture_metalness": true,
+      "bake_texture_normal": true,
+      "bake_texture_offset": 0.05000000074505806,
+      "bake_texture_offset_enable": false,
+      "bake_texture_opacity": true,
+      "bake_texture_opacity_mask": false,
+      "bake_texture_radius": 0.5,
+      "bake_texture_radius_enable": true,
+      "bake_texture_roughness": true,
+      "bake_texture_size": 1024,
+      "bake_vertex_color": true,
+      "bake_vertex_history": true,
+      "bake_vertex_iterations": 3,
+      "bake_vertex_layer_sync": false,
+      "bake_vertex_mask": false,
+      "bake_vertex_metalness": true,
+      "bake_vertex_normal": false,
+      "bake_vertex_normal_offset": 0.5,
+      "bake_vertex_offset": 0.05000000074505806,
+      "bake_vertex_offset_enable": false,
+      "bake_vertex_position": true,
+      "bake_vertex_radius": 0.5,
+      "bake_vertex_radius_enable": true,
+      "bake_vertex_ray_bias": 0.6000000238418579,
+      "bake_vertex_ray_enable": true,
+      "bake_vertex_relax": -1,
+      "bake_vertex_roughness": true,
+      "boolean_merge_vertex": true,
+      "camera_first_person": false,
+      "camera_fovy": 25,
+      "camera_orthographic": false,
+      "camera_pan_speed": 1,
+      "camera_pivot": [
+        -0.7022541165351868,
+        -0.18186688423156738,
+        0.12681499123573303
+      ],
+      "camera_rotate_speed": 1,
+      "camera_rotation": [
+        -0.16279813647270203,
+        0.10430704057216644,
+        -0.01731027476489544,
+        0.9809776544570923
+      ],
+      "camera_rotation_type": "orbit",
+      "camera_snap_orthographic": true,
+      "camera_translation": [
+        0.6828139424324036,
+        0.12275829166173935,
+        3.426837921142578
+      ],
+      "camera_turntable_speed": 0.07500000298023224,
+      "camera_zoom_speed": 1,
+      "cursor_indicator_circle": 0.5,
+      "cursor_indicator_color": [
+        0.10000000149011612,
+        0.699999988079071,
+        0.8999999761581421
+      ],
+      "cursor_indicator_enable": false,
+      "cursor_indicator_icon": 0.5,
+      "cursor_indicator_size": 25,
+      "cursor_indicator_type": 7,
+      "cursor_show_dot": true,
+      "cursor_show_rope": true,
+      "cursor_while_sculpting": false,
+      "darken_unselected": false,
+      "decimate_bias_normal": 0.0020000000949949026,
+      "decimate_has_bias_normal": true,
+      "decimate_has_paint_weight": true,
+      "decimate_paint_weight": 64,
+      "decimate_triangle_count": 15000,
+      "dynamic_best_quality": 0,
+      "dynamic_detail_method": "radius",
+      "dynamic_use_pressure": true,
+      "env_attached_to_camera": true,
+      "env_enable": true,
+      "env_exposure": 1.058371663093567,
+      "env_name": "venetian_crossroads_1k.hdr",
+      "env_rotation": 207.30812072753906,
+      "gesture_air_pivot": true,
+      "gesture_allow_unknown_pressure": false,
+      "gesture_auto_update_pivot": true,
+      "gesture_bind_invert_zoom_y": false,
+      "gesture_camera": 7,
+      "gesture_double_tap_background": "toggle",
+      "gesture_double_tap_focus": true,
+      "gesture_double_tap_pivot": true,
+      "gesture_dropper": 1,
+      "gesture_finger_always_smooth": false,
+      "gesture_finger_radius": true,
+      "gesture_finger_rotate_lighting": true,
+      "gesture_gizmo": 7,
+      "gesture_mask_hold_idle": false,
+      "gesture_mask_hold_stroke": true,
+      "gesture_mask_one_tap": true,
+      "gesture_pencil_action_1": "altmode",
+      "gesture_pencil_action_2": "smooth",
+      "gesture_sculpt": 7,
+      "gesture_sculpt_offset": 0,
+      "gesture_select": 7,
+      "gesture_shortcut": "mask",
+      "gesture_size_rejection": 50,
+      "gesture_use_size_rejection": false,
+      "gizmo_auto_hide": true,
+      "gizmo_compact_handlers": 0,
+      "gizmo_input": false,
+      "gizmo_linear_roll_threshold": 20,
+      "gizmo_size": 1.2999999523162842,
+      "gizmo_tap": "normal",
+      "gizmo_thickness": 1,
+      "grid_color": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.6000000238418579,
+        0.20000000298023224
+      ],
+      "grid_display": false,
+      "gui_access": false,
+      "gui_access_pos": [
+        200,
+        200
+      ],
+      "gui_bff": false,
+      "gui_blur_factor": 1,
+      "gui_bottom_draggable": false,
+      "gui_color_base": [
+        0.15000000596046448,
+        0.14000000059604645,
+        0.12999999523162842,
+        1
+      ],
+      "gui_color_base_transparent": [
+        0.7599999904632568,
+        0.6600000262260437,
+        0.6100000143051147,
+        1
+      ],
+      "gui_color_select": [
+        0.9200000166893005,
+        0.7400000095367432,
+        0.3499999940395355,
+        1
+      ],
+      "gui_color_style": "hsv_square",
+      "gui_cursor_step": 40,
+      "gui_curve_symmetric": true,
+      "gui_expand_layer": false,
+      "gui_flip_bottom": false,
+      "gui_flip_middle": false,
+      "gui_flip_top": false,
+      "gui_font_scale": 1,
+      "gui_icon_support": -1,
+      "gui_inline_atlas": false,
+      "gui_inline_bake_texture": false,
+      "gui_inline_bake_vertex": false,
+      "gui_inline_bff": false,
+      "gui_inline_decimate": true,
+      "gui_inline_hole": false,
+      "gui_inline_instant": false,
+      "gui_inline_manifold": false,
+      "gui_inline_quadriflow": false,
+      "gui_inline_triplanar": false,
+      "gui_inset_bottom": 0,
+      "gui_inset_custom_bottom": false,
+      "gui_inset_custom_left": false,
+      "gui_inset_custom_right": false,
+      "gui_inset_custom_top": false,
+      "gui_inset_left": 0,
+      "gui_inset_right": 0,
+      "gui_inset_top": 0,
+      "gui_locale": "ko",
+      "gui_material_preview": true,
+      "gui_node_focus": true,
+      "gui_panel_transparent": true,
+      "gui_panel_width": 350,
+      "gui_pin_dyntopo": false,
+      "gui_pin_grid": false,
+      "gui_pin_inspector": false,
+      "gui_pin_light": false,
+      "gui_pin_menu_alpha": false,
+      "gui_pin_menu_background": false,
+      "gui_pin_menu_bindings": false,
+      "gui_pin_menu_camera": false,
+      "gui_pin_menu_debug": false,
+      "gui_pin_menu_dynTopo": false,
+      "gui_pin_menu_falloff": false,
+      "gui_pin_menu_files": false,
+      "gui_pin_menu_filter": false,
+      "gui_pin_menu_gesture": false,
+      "gui_pin_menu_history": false,
+      "gui_pin_menu_historySettings": false,
+      "gui_pin_menu_interface": false,
+      "gui_pin_menu_layers": false,
+      "gui_pin_menu_material": false,
+      "gui_pin_menu_multires": false,
+      "gui_pin_menu_paint": false,
+      "gui_pin_menu_postProcess": false,
+      "gui_pin_menu_pressure": false,
+      "gui_pin_menu_primitive": false,
+      "gui_pin_menu_quickPaint": false,
+      "gui_pin_menu_render": false,
+      "gui_pin_menu_scene": false,
+      "gui_pin_menu_settings": false,
+      "gui_pin_menu_stroke": false,
+      "gui_pin_menu_symmetry": false,
+      "gui_pin_menu_tool": false,
+      "gui_pin_menu_topology": false,
+      "gui_pin_menu_voxel": false,
+      "gui_pin_menu_wrapStroke": false,
+      "gui_pin_menu_wrapTopo": false,
+      "gui_pin_perspective": false,
+      "gui_pin_profile": false,
+      "gui_pin_voxel": false,
+      "gui_pin_wireframe": false,
+      "gui_quadriflow": false,
+      "gui_quick_camera_flip": false,
+      "gui_quick_camera_home": false,
+      "gui_quick_grid": true,
+      "gui_quick_lock_selection": false,
+      "gui_quick_perspective": false,
+      "gui_quick_voxel_remesh": true,
+      "gui_quick_wireframe": true,
+      "gui_scale": 1,
+      "gui_scroll_top": false,
+      "gui_stats_display": true,
+      "gui_stats_right": false,
+      "gui_sync_visibility": true,
+      "gui_toolbox_max_column": 6,
+      "gui_toolbox_persistent": true,
+      "gui_tools_order": [
+        "base_clay",
+        "base_brush",
+        "base_move",
+        "base_drag",
+        "base_smooth",
+        "base_mask",
+        "base_maskSelector",
+        "base_paint",
+        "base_smudge",
+        "base_flatten",
+        "base_planar",
+        "base_layer",
+        "base_crease",
+        "base_trim",
+        "base_split",
+        "base_project",
+        "base_inflate",
+        "base_pinch",
+        "base_nudge",
+        "base_stamp",
+        "base_clearLayer",
+        "base_tube",
+        "base_lathe",
+        "base_insert",
+        "base_transform",
+        "base_gizmo",
+        "base_measure",
+        "base_lattice",
+        "base_view",
+        "base_select"
+      ],
+      "highlight_color": [
+        0.3499999940395355,
+        0.05000000074505806,
+        0.4399999976158142,
+        0.800000011920929
+      ],
+      "highlight_duration": 500,
+      "highlight_selection": true,
+      "history_gesture": true,
+      "history_include_lights": true,
+      "history_include_post_process": true,
+      "history_include_shading": true,
+      "history_length": 1000,
+      "history_max_size": 500,
+      "history_range_protect": 30,
+      "history_restore_camera": false,
+      "insert_sync_instance": false,
+      "inspector_channel": "none",
+      "inspector_channel_on_background": true,
+      "inspector_channel_on_mesh": true,
+      "inspector_wireframe": true,
+      "inspector_wireframe_color": [
+        0.5,
+        0.5,
+        0.5,
+        1
+      ],
+      "lathe_axis": "fixed",
+      "lathe_sync_instance": false,
+      "layer_keep_details": false,
+      "layers_extract": "shell",
+      "layers_layer_shell": false,
+      "layers_polish": 10,
+      "layers_polish_method": "sharp",
+      "layers_polish_sync_border": false,
+      "layers_ring": 0,
+      "layers_ring_auto": true,
+      "layers_split_mask": "shell",
+      "layers_split_unmask": "shell",
+      "layers_thickness": -0.5,
+      "layers_thickness_double": false,
+      "layers_thickness_uniform": true,
+      "light_full_gizmo": false,
+      "lights_enable": true,
+      "manifold_collapse_bias": 0.00019999999494757503,
+      "manifold_collapse_edges": false,
+      "mask_extract": "shell",
+      "mask_layer_shell": false,
+      "mask_polish": 10,
+      "mask_polish_method": "sharp",
+      "mask_polish_sync_border": false,
+      "mask_ring": 0,
+      "mask_ring_auto": true,
+      "mask_split_mask": "shell",
+      "mask_split_unmask": "shell",
+      "mask_thickness": 0.5,
+      "mask_thickness_double": false,
+      "mask_thickness_uniform": true,
+      "matcap_name": "theRedWaxPolice_sculpt.png",
+      "material": {
+        "color": [
+          0.800000011920929,
+          0.5,
+          0.10000000149011612
+        ],
+        "metalness": 0,
+        "roughness": 0.20000000298023224,
+        "version": 1
+      },
+      "multimesh_lowres_vertices": 500000,
+      "multimesh_max_vertices": 10000000,
+      "outline_color": [
+        0.5199999809265137,
+        0.029999999329447746,
+        0.05999999865889549,
+        1
+      ],
+      "outline_display": false,
+      "outline_thickness": 1,
+      "pp_accumulate_count": 50,
+      "pp_accumulate_enable": true,
+      "pp_bloom_enable": false,
+      "pp_bloom_intensity": 1,
+      "pp_bloom_radius": 0.6000000238418579,
+      "pp_bloom_threshold": 0.25,
+      "pp_chromatic_enable": false,
+      "pp_chromatic_factor": 0.5,
+      "pp_curvature_bump": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pp_curvature_cavity": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "pp_curvature_enable": false,
+      "pp_curve_blue": {
+        "curve": {
+          "closed": false,
+          "normal0": [
+            0,
+            0
+          ],
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sharps": [
+            0,
+            0
+          ],
+          "type": "catmull-rom",
+          "uniform": true
+        },
+        "power": 2,
+        "preset": "linear",
+        "shift": 0
+      },
+      "pp_curve_enable": false,
+      "pp_curve_green": {
+        "curve": {
+          "closed": false,
+          "normal0": [
+            0,
+            0
+          ],
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sharps": [
+            0,
+            0
+          ],
+          "type": "catmull-rom",
+          "uniform": true
+        },
+        "power": 2,
+        "preset": "linear",
+        "shift": 0
+      },
+      "pp_curve_luminance": {
+        "curve": {
+          "closed": false,
+          "normal0": [
+            0,
+            0
+          ],
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sharps": [
+            0,
+            0
+          ],
+          "type": "catmull-rom",
+          "uniform": true
+        },
+        "power": 2,
+        "preset": "linear",
+        "shift": 0
+      },
+      "pp_curve_red": {
+        "curve": {
+          "closed": false,
+          "normal0": [
+            0,
+            0
+          ],
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "sharps": [
+            0,
+            0
+          ],
+          "type": "catmull-rom",
+          "uniform": true
+        },
+        "power": 2,
+        "preset": "linear",
+        "shift": 0
+      },
+      "pp_dithering": true,
+      "pp_dof_blur_far": 0.5,
+      "pp_dof_blur_near": 0.5,
+      "pp_dof_enable": false,
+      "pp_enable": false,
+      "pp_full_resolution": false,
+      "pp_grain_enable": false,
+      "pp_grain_factor": 0.25,
+      "pp_max_samples": false,
+      "pp_pixel_art_allow_accumulate": false,
+      "pp_pixel_art_enable": false,
+      "pp_pixel_art_ratio": 5,
+      "pp_render_ratio": 1,
+      "pp_scanline_enable": false,
+      "pp_scanline_factor": 1,
+      "pp_scanline_spacing": 1,
+      "pp_sharpness_enable": false,
+      "pp_sharpness_factor": 0.5,
+      "pp_ssao_bias": 0.006296578794717789,
+      "pp_ssao_enable": false,
+      "pp_ssao_factor": 0.30000001192092896,
+      "pp_ssao_radius": 0.15111790597438812,
+      "pp_ssgi_enable": false,
+      "pp_ssgi_tolerance": 1,
+      "pp_ssr_enable": false,
+      "pp_taa_enable": true,
+      "pp_tone_contrast": 0,
+      "pp_tone_enable": false,
+      "pp_tone_exposure": 1,
+      "pp_tone_mapping": "aces",
+      "pp_tone_saturation": 1,
+      "pp_vignette_enable": false,
+      "pp_vignette_hardness": 0.5,
+      "pp_vignette_size": 0.5,
+      "pressure": {
+        "average": 10,
+        "curve_intensity": {
+          "curve": {
+            "closed": false,
+            "normal0": [
+              0,
+              0
+            ],
+            "points": [
+              [
+                0,
+                0.20000000298023224
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "sharps": [
+              0,
+              0
+            ],
+            "type": "catmull-rom",
+            "uniform": true
+          },
+          "power": 2,
+          "preset": "linear",
+          "shift": 0
+        },
+        "curve_radius": {
+          "curve": {
+            "closed": false,
+            "normal0": [
+              0,
+              0
+            ],
+            "points": [
+              [
+                0,
+                0.20000000298023224
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "sharps": [
+              0,
+              0
+            ],
+            "type": "catmull-rom",
+            "uniform": true
+          },
+          "power": 2,
+          "preset": "linear",
+          "shift": 0
+        },
+        "use_intensity": true,
+        "use_radius": true,
+        "version": 1
+      },
+      "profile_viewport": false,
+      "recent_project": "Project.nom",
+      "repeat_validate_type": "keep_instances",
+      "shader_type": "pbr",
+      "shape_auto_validate": true,
+      "shape_ellipse_centered": false,
+      "shape_ellipse_circle": false,
+      "shape_line_rotate_step": 0,
+      "shape_loop_closed": false,
+      "shape_precision": 0.5,
+      "shape_rectangle_centered": false,
+      "shape_rectangle_square": false,
+      "shape_spline": false,
+      "show_hierarchy": false,
+      "show_hierarchy_nomad_pivot": true,
+      "show_icon_camera": true,
+      "show_icon_group": false,
+      "show_icon_light": true,
+      "show_icon_repeat": true,
+      "show_icon_size_range": [
+        30,
+        60
+      ],
+      "smooth_shading": false,
+      "snap_cube": true,
+      "snap_cube_align": -1,
+      "snap_cube_bottom": false,
+      "snap_cube_flit": true,
+      "snap_cube_left": false,
+      "snap_cube_shape": "sphere",
+      "snap_cube_size": 100,
+      "startup_privacy_policy": false,
+      "tools_use_share_radius": false,
+      "tools_use_world_radius": false,
+      "trim_border_detail": 1,
+      "trim_hole_detail": 1,
+      "trim_hole_fill": true,
+      "trim_interior_detail": 1,
+      "trim_method": "boolean",
+      "trim_sync_detail": true,
+      "tube_snap": "start_end",
+      "tube_snap_offset": 0,
+      "tube_sync_instance": false,
+      "uv_primitive": false,
+      "version": 9,
+      "wireframe_color": [
+        0,
+        0,
+        0,
+        0.6000000238418579
+      ],
+      "wireframe_display": false
+    }
+  },
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.25
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "extras": {
+        "nomad": {
+          "absorption_albedo": false,
+          "absorption_color": [
+            0.3799999952316284,
+            0.16300000250339508,
+            0.08399999886751175
+          ],
+          "absorption_enable": false,
+          "absorption_factor": 0.5,
+          "active_layer": -1,
+          "always_unlit": false,
+          "cast_shadow": -1,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "dynTopo_local_edge_length": 0.005596959963440895,
+          "factorColor": [
+            1,
+            1,
+            1
+          ],
+          "factorEmissive": [
+            1,
+            1,
+            1
+          ],
+          "factorEmissiveStrength": 1,
+          "factorMetalness": 1,
+          "factorNormal": 1,
+          "factorOcclusion": 1,
+          "factorOpacity": 1,
+          "factorRoughness": 1,
+          "flip_culling": false,
+          "keep_order": 0,
+          "material_type": "opaque",
+          "mesh_type": "multiresolution",
+          "metalness": 0,
+          "multires_count": 2,
+          "multires_level": 2,
+          "opacity": 1,
+          "reflectance": 0.5,
+          "refraction_interior_roughness": 0,
+          "refraction_ior": 1.3300000429153442,
+          "refraction_surface_glossiness": 0,
+          "roughness": 0.25,
+          "smooth_shading": -1,
+          "subsurface_color": [
+            1,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "subsurface_depth": -1,
+          "symmetry_frame": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "symmetry_local": true,
+          "symmetry_radial_x": 1,
+          "symmetry_radial_y": 1,
+          "symmetry_radial_z": 1,
+          "symmetry_sculpt": true,
+          "symmetry_transform": false,
+          "symmetry_x": true,
+          "symmetry_y": false,
+          "symmetry_z": false,
+          "translucency": true,
+          "translucency_factor": 1,
+          "two_sided": -1,
+          "version": 1,
+          "voxel_local_edge_length": 0.005596959963440895,
+          "voxel_qef": false,
+          "voxel_sub_level": -1,
+          "wireframe_visible": -1
+        }
+      },
+      "name": "Sphere",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "COLOR_1": 3,
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "extras": {
+        "nomad": {
+          "mask_delta": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "node_collapse": true,
+          "pivot_delta": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "visible": true
+        }
+      },
+      "mesh": 0,
+      "name": "Sphere"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
